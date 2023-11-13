@@ -6,8 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-fluvio-stream-model = "0.10.0"
-fluvio-stream-dispatcher = { version = "0.12.0", features = ["k8"] }
+fluvio-stream-model = { git = "https://github.com/infinyon/fluvio.git" }
+fluvio-stream-dispatcher = { git = "https://github.com/infinyon/fluvio.git", features = ["k8"] }
 k8-client = "12.0.0"
 tokio = { version = "1.33.0", features = ["macros"] }
 fluvio-future = { version = "0.6.0" }
