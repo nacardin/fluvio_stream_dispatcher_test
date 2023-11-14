@@ -479,7 +479,7 @@ dependencies = [
 [[package]]
 name = "fluvio-stream-dispatcher"
 version = "0.13.0"
-source = "git+https://github.com/infinyon/fluvio.git#03806c2a4805d8df78e0084d9ba852b1e4b30409"
+source = "git+https://github.com/infinyon/fluvio.git?rev=0261585157e7388f9587a5ef7322ed5d29395c9f#0261585157e7388f9587a5ef7322ed5d29395c9f"
 dependencies = [
  "anyhow",
  "async-channel 1.9.0",
@@ -503,7 +503,7 @@ dependencies = [
 [[package]]
 name = "fluvio-stream-model"
 version = "0.11.0"
-source = "git+https://github.com/infinyon/fluvio.git#03806c2a4805d8df78e0084d9ba852b1e4b30409"
+source = "git+https://github.com/infinyon/fluvio.git?rev=0261585157e7388f9587a5ef7322ed5d29395c9f#0261585157e7388f9587a5ef7322ed5d29395c9f"
 dependencies = [
  "async-rwlock",
  "event-listener 3.1.0",
@@ -516,7 +516,7 @@ dependencies = [
 [[package]]
 name = "fluvio-types"
 version = "0.4.4"
-source = "git+https://github.com/infinyon/fluvio.git#03806c2a4805d8df78e0084d9ba852b1e4b30409"
+source = "git+https://github.com/infinyon/fluvio.git?rev=0261585157e7388f9587a5ef7322ed5d29395c9f#0261585157e7388f9587a5ef7322ed5d29395c9f"
 dependencies = [
  "thiserror",
  "tracing",

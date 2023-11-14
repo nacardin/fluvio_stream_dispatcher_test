@@ -75,7 +75,7 @@ async fn main() -> Result<()> {
     after(Duration::from_secs(5)).await;
 
     let spec = WidgetSpec {
-        disabled: false
+        disabled: true
     };
 
     let widget_name = "w2";
@@ -98,7 +98,7 @@ impl WidgetController {
 
     async fn dispatch_loop(mut self) {
         loop {
-            after(Duration::from_secs(5)).await;
+            after(Duration::from_secs(1)).await;
             self.inner_loop().await;
         }
     }
@@ -131,7 +131,7 @@ impl WidgetController {
             }).await;                
         }
 
-        after(Duration::from_secs(5)).await;
+        after(Duration::from_secs(1)).await;
 
         println!("waiting for events");
 
